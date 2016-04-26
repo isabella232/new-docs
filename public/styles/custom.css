@@ -1,0 +1,7 @@
+header {
+  padding: 0;
+}
+
+header>.header-nav-menu-container {
+  margin: 0; 
+}
