@@ -1,0 +1,20 @@
+{
+  "name": "new-docs",
+  "version": "1.0.0",
+  "description": "> a manifest for the npm guides",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/new-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/new-docs/issues"
+  },
+  "homepage": "https://github.com/npm/new-docs#readme"
+}
