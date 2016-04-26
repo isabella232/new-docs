@@ -4,7 +4,8 @@
   "description": "> a manifest for the npm guides",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server ./",
+    "build:styles": "dr-frankenstyle ./public/styles"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/npm/new-docs/issues"
   },
-  "homepage": "https://github.com/npm/new-docs#readme"
+  "homepage": "https://github.com/npm/new-docs#readme",
+  "dependencies": {
+    "@npmcorp/pui-css-header": "^2.2.0",
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {
+    "@npmcorp/dr-frankenstyle": "^1.1.0",
+    "live-server": "^1.0.0"
+  }
 }
