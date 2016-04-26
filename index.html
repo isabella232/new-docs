@@ -5,18 +5,41 @@
     <link rel="stylesheet" href="public/styles/components.css" />
   </head>
   <body>
-    <h1>the npm docs</h1>
-    <h1 class="subtitle">these are the docs your looking for</h1>
-    <section class="guides">
-      <h2>Guides</h2>
-      <ul>
-        <li>
-          <a href="#">npm Enterprise</a>
-        </li>
-      </ul>
-    </section>
-    <section class="CLI">
-      <h2>CLI commands</h2>
-    </section>
+    <header>
+    <div class="header-item header-nav-menu-container">
+      <a href="#" id="npm-expansions" class="npm-expansions" data-event-trigger="click" data-event-name="npm-expansions">New Project, Monday</a>
+      <div class="nav-menu-container" role="navigation">
+        <a class="nav-toggle drop-down-menu-toggle" href="#product-navigation"><span class="a11y-only">Toggle Navigation</span>
+          <img alt="mobile navigation menu" src="/static/images/mobile-menu.png">
+        </a>
+        <div class="drop-down-menu-container" role="menu">
+          <nav id="product-navigation" class="product-navigation drop-down-menu">
+            <ul class="drop-down-menu-section products-list">
+              <li><a href="/npm/on-site" class="h6">npm On-Site</a></li>
+              <li><a href="/npm/private-packages" class="h6" data-event-trigger="click" data-event-name="private-modules-nav-link">npm Private Packages</a></li>
+              <li><a href="/npm/open-source" class="h6">npm Open Source</a></li>
+              <li><a href="https://docs.npmjs.com" class="h6">documentation</a></li>
+              <li><a href="/support" class="h6">support</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div class="container">
+      <h1>the npm docs</h1>
+      <h1 class="subtitle">these are the docs your looking for</h1>
+     <section class="guides">
+        <h2>Guides</h2>
+        <ul>
+          <li>
+            <a href="#">npm Enterprise</a>
+          </li>
+        </ul>
+      </section>
+      <section class="CLI">
+        <h2>CLI commands</h2>
+      </section>
+    </div>
   </body>
 </html>
