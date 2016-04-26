@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server ./",
-    "build:styles": "dr-frankenstyle ./public/styles"
+    "build": "npm run build:styles && npm run build:scripts",
+    "build:styles": "dr-frankenstyle ./public/styles",
+    "build:scripts": "browserify ./public/scripts -o ./public/scripts/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +22,13 @@
   "homepage": "https://github.com/npm/new-docs#readme",
   "dependencies": {
     "@npmcorp/pui-css-header": "^2.2.0",
-    "bootstrap": "^3.3.5"
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.2.3",
+    "npm-expansions": "^2.2.3"
   },
   "devDependencies": {
     "@npmcorp/dr-frankenstyle": "^1.1.0",
+    "browserify": "^13.0.0",
     "live-server": "^1.0.0"
   }
 }
