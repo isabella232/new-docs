@@ -5,3 +5,15 @@ header {
 header>.header-nav-menu-container {
   margin: 0; 
 }
+
+.hero {
+  background-color: #245978;
+}
+
+img {
+  width: 100%;
+}
+
+.title-words {
+  margin-top: 100px;
+}
