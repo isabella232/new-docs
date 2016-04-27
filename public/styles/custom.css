@@ -7,15 +7,11 @@ header>.header-nav-menu-container {
 }
 
 .hero {
-  background-color: #245978;
+  background-color: #2a303c;
 }
 
 img {
   width: 100%;
-}
-
-.title-words {
-  margin-top: 100px;
 }
 
 .logo {
@@ -26,3 +22,25 @@ img {
   width: 175px;
 }
 
+.step {
+  padding: 20px;
+  text-align: center;
+}
+
+.titles {
+  margin-top: 100px;
+  border-right: solid 1px white;
+}
+
+#using:hover, #publishing:hover, #installing:hover {
+  background: #245978;
+  color: white;
+}
+
+section {
+  padding: 20px 20px 35px 20px;
+}
+
+.guides a {
+  font-size: 2em;
+}
